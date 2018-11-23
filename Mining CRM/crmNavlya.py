@@ -1,10 +1,10 @@
 from mainmod import day
 from tkinter import *
+import os
 z=print
 root=Tk()
 root.title('Управление объемами. Сегодня %s' % day())
 root.geometry('500x200+100+250')
-
 
 # вставляем текстовое поле ввода text entry
 te = Entry(width=20)
@@ -27,7 +27,6 @@ for _ in range(n_row):
 
 b = Button(text="Вставить", command=insert)
 b.grid(row=1,column=2)
-
 
 root.mainloop()
 

@@ -10,7 +10,7 @@ with open ('input.txt','r') as file:
 #    print(v,k)
                                      # Func
 def Into():
-    with open ('input.txt','r') as file:
+    with open('input.txt','r') as file:
         n=int(file.readline())  # first string of file
         fe=file.readlines()     # other strings of file
     return n,fe
@@ -20,20 +20,20 @@ import sys
 n = int(sys.stdin.readline())
 fe= sys.stdin.readlines()
 
-''' Так будет читать построчно, и надо сразу вставлять код обработки'''
+''' Г’Г ГЄ ГЎГіГ¤ГҐГІ Г·ГЁГІГ ГІГј ГЇГ®Г±ГІГ°Г®Г·Г­Г®, ГЁ Г­Г Г¤Г® Г±Г°Г Г§Гі ГўГ±ГІГ ГўГ«ГїГІГј ГЄГ®Г¤ Г®ГЎГ°Г ГЎГ®ГІГЄГЁ'''
 n = int(sys.stdin.readline())
 for i in range(n):
     fe= sys.stdin.readline()
-    # КОД обработки построчного ввода
+    # ГЉГЋГ„ Г®ГЎГ°Г ГЎГ®ГІГЄГЁ ГЇГ®Г±ГІГ°Г®Г·Г­Г®ГЈГ® ГўГўГ®Г¤Г 
 
 for i in range(n):
-    v,k= list(map(int,sys.stdin.readline().split()))
+    v, k = list(map(int,sys.stdin.readline().split()))
     print(v,k)
                             # Func
 def IntoS():
     n = int(sys.stdin.readline())
     for i in range(n):
-        v,k= list(map(int,sys.stdin.readline().split()))
+        v,k = list(map(int,sys.stdin.readline().split()))
         return v,k
 
 #---------------------------------------------------

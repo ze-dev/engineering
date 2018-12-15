@@ -5,7 +5,7 @@
 
 def manhole_proc(a):
     import pyperclip
-    b=float_input('Текущий колодец, ввод отсчет по вешке > ')
+    b=float_input('Текущий колодец c отм. %s,  ввод отсчета по вешке > ' % a)
     c=2.6-b+1.39
     print('Глубина точки равна > '.rjust(40), round( c, 2) )
     print('Отметка точки равна > '.rjust(40), round( (a-c), 2) )

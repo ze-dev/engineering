@@ -3,6 +3,8 @@
 используя промеры по вешке максимальной высотой 2,6
 на Смоленском заводе''' 
 
+import time
+
 def manhole_proc(a):
     import pyperclip
     b=float_input('Текущий колодец c отм. %s,  ввод отсчета по вешке > ' % a)
@@ -45,7 +47,8 @@ try:
     new_manhole()
 except:
     print('\n!   Неизвестная ошибка, возможна остановка пользователем.')
-            
+    
+time.sleep(2.7)
 #input('press enter..')
 
 

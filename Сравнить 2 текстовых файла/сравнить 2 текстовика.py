@@ -7,7 +7,9 @@ verifyin - проверяемый файл, берем его из готово�
 таблицы экселя простым копированием.
 '''
 
-import sys, re, time ; z=lambda z:print(z);zz=lambda z,x:print(z,x)
+import sys, re, time 
+z=print
+zz=lambda z,x:print(z,x)
 bb=open('basein.txt','r').readlines()
 vv=open('verifyin.txt','r').readlines()
 b,v=[],[]

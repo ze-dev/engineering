@@ -33,6 +33,8 @@ for i in range(len(b)):
 z('Проверка выполнена. Совпавших строк {}. Несовпавших {}.'.format(sovp,nesovp))
 if massnesovpav!=[]:
     z('Несовпавшие строки {}'.format(massnesovpav))
+bb.close()
+vv.close()
 
 input('Press Enter To Exit...')
 

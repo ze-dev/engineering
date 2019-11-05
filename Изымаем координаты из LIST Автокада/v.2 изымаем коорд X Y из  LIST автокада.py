@@ -30,4 +30,4 @@ print('\nФайл " out.txt " создан. Получено {} строк.'.for
 print('\nСкопируйте результат  в исходный .txt файл из автокада')
 ready.close()
 
-input('\nPress enter to exit...')
+input('\nCompleted. Press enter to exit...')

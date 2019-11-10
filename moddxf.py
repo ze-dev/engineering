@@ -29,7 +29,6 @@ for _ in fe:
         ready.write(_)
  
 ready.close()
-print('Quest done.')
-input('press enter..')
+input('Quest done. Press enter..')
     
         

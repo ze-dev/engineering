@@ -27,7 +27,6 @@ for i in f:
     number+=1 if p else 0
 
 print('\nФайл " out.txt " создан. Получено {} строк.'.format(number))
-print('\nСкопируйте результат  в исходный .txt файл из автокада')
 ready.close()
 
 input('\nCompleted. Press enter to exit...')

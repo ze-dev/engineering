@@ -18,7 +18,7 @@ if __name__=='__main__':
   import time
   print(day())
   print('The module myTime is started manually.\nWindow will be close in several sec.')     
-  #time.sleep(2)  
+  time.sleep(1.5)  
   input('\npress enter..')
                      
 
